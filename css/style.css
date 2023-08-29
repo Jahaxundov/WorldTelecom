@@ -119,6 +119,135 @@ input{
     align-items: center;
     font-size: 20px;
 }
+
+#Img{
+    background-color: #f8f7f7;
+}
+.image img{
+    margin: 30px 0;
+    width: 60%;
+    border-radius: 10px;
+}
+
+#Card{
+    background-color: #f8f7f7;
+}
+.box-all{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box{
+    position: relative;
+    background-color: #fff;
+    width: 32%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:1px solid #ccd0d4;
+    margin: 10px 10px;
+}
+.box image{
+    width: 100%;
+    margin-left: 30px;
+}
+.image img{
+    margin-left: 40px;
+}
+
+.price-all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+h2{
+    font-size: 18px;
+}
+
+.months-all{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    padding: 3px;
+    border-radius: 5px;
+}
+.months{
+    margin: 0 5px;
+}
+h3{
+    color: #adadad;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 5px 0;
+}
+h5{
+    font-size:14px;
+    margin: 10px;
+}
+.credit span{
+    font-size: 16px;
+    font-weight:bold;
+}
+.button{
+    text-align: center;
+
+}
+.credit{
+    
+    margin-left: 30px;
+}
+
+button{
+
+     display: flex;
+     font-size: 13px;
+     padding: 7px 6rem;
+     color: #fff;
+     font-weight: 600;
+     background-color: #8dc63f;
+     border: none;
+     border-radius: 5px;
+     transition: .5s;
+}
+
+.button span{
+    margin-left: 10px;
+}
+
+.box i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+}
+
+.name a{
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sale{
+    position: absolute;
+    text-align: center;
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    top: 50px;
+}
+.sale span{
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+.sale p{
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
     
    
 
